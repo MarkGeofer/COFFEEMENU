@@ -1,0 +1,27 @@
+body{
+    background-color: bisque;  
+  }
+  h1{
+      font-family: 'Courier New', Courier, monospace; color:#4b351a;
+      border-style: outset;
+      border-radius: 16px 16px;
+      background-color: hsl(33, 82%, 67%);
+  }
+  .hotcontainer{
+    position: relative;
+    border-radius: 10px;
+    border-style: double;
+    border-width: 12px;
+    border-color: #4b351a;
+    background-color: #7a684d;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3&;
+  }
+
+  .hotcontainer img{
+    margin: 1%;
+    
+  }
